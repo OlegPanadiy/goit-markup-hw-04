@@ -290,6 +290,20 @@ img {
   width: 264px;
   margin-bottom: 8px;
 }
+.feature-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 8px;
+
+  width: 100%;
+  height: 112px;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+}
+.feature-icon {
+}
 
 /**
   |============================
@@ -398,8 +412,8 @@ img {
   align-items: center;
   justify-content: center;
 
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
 
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
@@ -414,6 +428,8 @@ img {
 }
 
 .customer-item {
+  width: 168px;
+  height: 88px;
 }
 .customer-icon {
   fill: var(--color-light-slate);
