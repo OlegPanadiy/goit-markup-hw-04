@@ -217,6 +217,9 @@ img {
   color: var(--color-cloud);
   width: 264px;
 }
+.footer-container {
+  display: flex;
+}
 
 /**
   |============================
