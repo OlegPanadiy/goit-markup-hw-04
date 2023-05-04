@@ -237,8 +237,8 @@ img {
   align-items: center;
   gap: 16px;
 }
-.social-item:hover .social-link-footer,
-.social-item:focus .social-link-footer {
+.social-item :hover .social-link-footer,
+.social-item :focus .social-link-footer {
   background-color: var(--color-green);
 }
 .footer-left-side {
