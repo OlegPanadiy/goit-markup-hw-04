@@ -220,6 +220,29 @@ img {
 .footer-container {
   display: flex;
 }
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+.social-footer {
+  display: flex;
+
+  align-items: center;
+  gap: 24px;
+}
+.social-item:hover .social-link-footer,
+.social-item:focus .social-link-footer {
+  background-color: var(--color-green);
+}
+.footer-left-side {
+  box-sizing: content-box;
+  padding-right: 120px;
+  width: 264px;
+}
 
 /**
   |============================
