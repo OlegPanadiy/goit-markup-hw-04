@@ -237,8 +237,8 @@ img {
   align-items: center;
   gap: 16px;
 }
-.social-item :hover .social-link-footer,
-.social-item :focus .social-link-footer {
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: var(--color-green);
 }
 .footer-left-side {
@@ -414,8 +414,9 @@ img {
 .social-icon {
   fill: var(--color-cloud);
 }
-.social-link:hover,
-.social-link:focus {
+
+.social-link-portfolio:hover,
+.social-link-portfolio:focus {
   background-color: var(--color-ocean);
 }
 /**
