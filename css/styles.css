@@ -260,10 +260,9 @@ img {
   max-width: 1440px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero/people-office1.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  block-size: cover;
-  background-size: cover;
 }
 .herro-title {
   width: 496px;
