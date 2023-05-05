@@ -263,6 +263,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   block-size: cover;
+  background-size: cover;
 }
 .herro-title {
   width: 496px;
